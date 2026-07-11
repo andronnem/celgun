@@ -1,62 +1,43 @@
-# Todo App
+### Todo App
 
-A lightweight Python console application for managing daily tasks.
+A lightweight JavaScript console application for managing daily tasks.
 
-## Overview
+### Features
 
-Todo App is a simple task organizer that allows users to manage pending and completed tasks, filter task lists, and display a clean project summary.
+* Create tasks
 
-The project demonstrates object-oriented programming, modular architecture, and separation of responsibilities.
+* Mark tasks as completed
 
-## Features
+* Filter pending/completed tasks
 
-- Create tasks
-- Mark tasks as completed
-- Filter completed tasks
-- Filter pending tasks
-- Console dashboard
-- Simple local storage simulation
+* Console dashboard
 
-## Project Structure
+* Simple local storage simulation
 
-```
-.
-├── main.py
-├── task.py
-├── board.py
-├── filters.py
-├── renderer.py
-├── storage.py
-├── sample_tasks.py
-└── README.md
-```
+### Project Structure
 
-## Example Output
+todoapp-js/
 
-```
-========= TODO BOARD =========
+├── main.js
 
-[ ] Buy groceries
-[x] Finish project
-[ ] Read a chapter
-[x] Water plants
+├── task.js
 
-------------------------------
-Completed: 2
-Pending: 2
-```
+├── board.js
 
-## Technologies
+├── filters.js
 
-- Python 3
-- Git
-- GitHub
+├── renderer.js
 
-## Future Improvements
+├── storage.js
 
-- JSON storage
-- Due dates
-- Priorities
-- Categories
-- CLI arguments
+├── sampleTasks.js
 
+└── config.js
+
+### Run
+
+npm install
+
+node main.js
+
+MIT License
